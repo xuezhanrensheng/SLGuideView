@@ -1,0 +1,16 @@
+PODS:
+  - SLGuideView (0.1.0)
+
+DEPENDENCIES:
+  - SLGuideView (from `../`)
+
+EXTERNAL SOURCES:
+  SLGuideView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLGuideView: 9397f8adaff44e1a936ad9bd6ec326a0bab450ee
+
+PODFILE CHECKSUM: 841b0aae0dc73429b6ad914f04bf1a5ab262f5b8
+
+COCOAPODS: 1.8.4

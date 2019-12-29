@@ -1,0 +1,6 @@
+framework module SLGuideView {
+  umbrella header "SLGuideView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SLGuideView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SLGuideView.'
+  s.summary          = '引导页'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 引导页
                        DESC
 
-  s.homepage         = 'https://github.com/wuwenming/SLGuideView'
+  s.homepage         = 'https://github.com/xuezhanrensheng/SLGuideView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuwenming' => '18301595770@163.com' }
-  s.source           = { :git => 'https://github.com/wuwenming/SLGuideView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xuezhanrensheng/SLGuideView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

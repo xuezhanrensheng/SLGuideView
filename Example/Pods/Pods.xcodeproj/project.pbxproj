@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D9EEE7F3C39D1F1674FD78D48774EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C3A6B4B767AE5C77E90C6829E77F7A5 /* HcdGuideView.h in Headers */ = {isa = PBXBuildFile; fileRef = A42889522D5D7D9C2964CC436F6C96FB /* HcdGuideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C222A958DC0D14C36456985E5D12E6 /* Pods-SLGuideView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E86D41C90794FD11002831D7F0BC2FE /* Pods-SLGuideView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B5E4A2B3BD705558BA9AFD72EE13651 /* SLGuideView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC9B6268CB047E9AD54D44D1CC20DA0 /* SLGuideView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96BC042F3DBDEA2D547EEAE1D19F424B /* HcdGuideViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2A6017619247B83D2471458784A9B1 /* HcdGuideViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB4970961AA9B3212E19BEE1C642E6EC /* Pods-SLGuideView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CC30D50F2C17DF47861006ED7EB257 /* Pods-SLGuideView_Tests-dummy.m */; };
+		B586FB9742EE2ECCAA52CC583141752F /* SLGuideView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A1CF579121BA937C95A646460675D7 /* SLGuideView-dummy.m */; };
+		B662AA70051BEA091E765656F524323F /* Pods-SLGuideView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2381A44F78FC5AF724103AE315F07C8B /* Pods-SLGuideView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3F6632F31306596792BC6A9B6DE466 /* HcdGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 381E40A521162D9497C53C34F53E0A20 /* HcdGuideView.m */; };
+		BD9F313337F46A5BCF63173B0D355B0E /* Pods-SLGuideView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EB9549187BEE7C7DC3415EFFA32386 /* Pods-SLGuideView_Example-dummy.m */; };
+		C35FF6488CCC9F776B7B4FA62AFF835C /* HcdGuideViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AE9ACD7BB8203D3B693AC7A6660A39 /* HcdGuideViewCell.m */; };
+		D8F6115F21D00F6A44477A9DA12D9ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FB65945B843DA7AE58641926B1FDC5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3AA871AA63BCC79A7E5D7F0B89B1711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D84C966F82EBCA2BFDA57FD41BF26E1;
+			remoteInfo = SLGuideView;
+		};
+		E636AC21552922196FA3BF54EA371ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E344EC2F3A08A8C7138E91D14F8190;
+			remoteInfo = "Pods-SLGuideView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DF78879A9325727BC95EB338DFA51E /* Pods_SLGuideView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLGuideView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BD1A1B3392D80058963A7BAD07A9FB /* Pods-SLGuideView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLGuideView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E57E77C17C1DFD55DB0E9EEF24BCEAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2381A44F78FC5AF724103AE315F07C8B /* Pods-SLGuideView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLGuideView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E86D41C90794FD11002831D7F0BC2FE /* Pods-SLGuideView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLGuideView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35FDA0C057659C9B7D33CF7D9C6784C5 /* Pods-SLGuideView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLGuideView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		381E40A521162D9497C53C34F53E0A20 /* HcdGuideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HcdGuideView.m; path = SLGuideView/Classes/HcdGuideView.m; sourceTree = "<group>"; };
+		3D462476C792598BBF42AB3FD56359AC /* Pods_SLGuideView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLGuideView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454DCB20679147D7B5C9FEE6D527BDBC /* Pods-SLGuideView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLGuideView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55EB9549187BEE7C7DC3415EFFA32386 /* Pods-SLGuideView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLGuideView_Example-dummy.m"; sourceTree = "<group>"; };
+		5BDA459B52CD9B276808D76CC3352B5F /* SLGuideView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLGuideView-Info.plist"; sourceTree = "<group>"; };
+		631EB2F9BF3CF038092511DB6C18BEFB /* Pods-SLGuideView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLGuideView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		74BBED3590C01591991ACF82E96F7B85 /* Pods-SLGuideView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLGuideView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		770C804ABAF55F33B18360FC16937132 /* Pods-SLGuideView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLGuideView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C29FF0629D83DFC94B562DC1D9BF099 /* SLGuideView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLGuideView.xcconfig; sourceTree = "<group>"; };
+		7E2B9DF7DCF8D659AC2EE5776E0DB405 /* SLGuideView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLGuideView.modulemap; sourceTree = "<group>"; };
+		86AE9ACD7BB8203D3B693AC7A6660A39 /* HcdGuideViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HcdGuideViewCell.m; path = SLGuideView/Classes/HcdGuideViewCell.m; sourceTree = "<group>"; };
+		88CC30D50F2C17DF47861006ED7EB257 /* Pods-SLGuideView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLGuideView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B4ED35DE2262B301808903F3F7CEA34 /* SLGuideView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLGuideView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9093A2BDF515B91F8D65FB26CACE764B /* Pods-SLGuideView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLGuideView_Tests.modulemap"; sourceTree = "<group>"; };
+		95964492A0D671C8E8FD2855C03B6A10 /* Pods-SLGuideView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLGuideView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A379E4CB0FF7619CB3B1B10279072887 /* Pods-SLGuideView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLGuideView_Example.modulemap"; sourceTree = "<group>"; };
+		A42889522D5D7D9C2964CC436F6C96FB /* HcdGuideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HcdGuideView.h; path = SLGuideView/Classes/HcdGuideView.h; sourceTree = "<group>"; };
+		A5DB2BDDF891C94E96EA662F7454B4CA /* Pods-SLGuideView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLGuideView_Tests-Info.plist"; sourceTree = "<group>"; };
+		C0A1CF579121BA937C95A646460675D7 /* SLGuideView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLGuideView-dummy.m"; sourceTree = "<group>"; };
+		CA2A6017619247B83D2471458784A9B1 /* HcdGuideViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HcdGuideViewCell.h; path = SLGuideView/Classes/HcdGuideViewCell.h; sourceTree = "<group>"; };
+		CCC9B6268CB047E9AD54D44D1CC20DA0 /* SLGuideView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLGuideView-umbrella.h"; sourceTree = "<group>"; };
+		D0FB7D31E5203C69BED5D8DBE751C5AE /* Pods-SLGuideView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLGuideView_Example-Info.plist"; sourceTree = "<group>"; };
+		D3F0F00CD77871218911A22B4A66E4CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6140AFA386496C327CDAB7EFA3A2F45 /* Pods-SLGuideView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLGuideView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF08ED27B37309E5B1B696754CF889A0 /* SLGuideView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLGuideView-prefix.pch"; sourceTree = "<group>"; };
+		FB0625E815AB426DE5F7D20BE3BA14AB /* Pods-SLGuideView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLGuideView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD9831390CB4407D24909AF06DA3C45F /* SLGuideView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SLGuideView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D9A7A74B232E89D0966A3315FC061C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9EEE7F3C39D1F1674FD78D48774EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3DC8379AC5582BDB483BC8CAC68B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB65945B843DA7AE58641926B1FDC5C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E293E66E53128D93B9261D095FABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F6115F21D00F6A44477A9DA12D9ABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D613094D893243E7B8464C837F3EA9 /* Pods-SLGuideView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9093A2BDF515B91F8D65FB26CACE764B /* Pods-SLGuideView_Tests.modulemap */,
+				454DCB20679147D7B5C9FEE6D527BDBC /* Pods-SLGuideView_Tests-acknowledgements.markdown */,
+				FB0625E815AB426DE5F7D20BE3BA14AB /* Pods-SLGuideView_Tests-acknowledgements.plist */,
+				88CC30D50F2C17DF47861006ED7EB257 /* Pods-SLGuideView_Tests-dummy.m */,
+				A5DB2BDDF891C94E96EA662F7454B4CA /* Pods-SLGuideView_Tests-Info.plist */,
+				2381A44F78FC5AF724103AE315F07C8B /* Pods-SLGuideView_Tests-umbrella.h */,
+				D6140AFA386496C327CDAB7EFA3A2F45 /* Pods-SLGuideView_Tests.debug.xcconfig */,
+				74BBED3590C01591991ACF82E96F7B85 /* Pods-SLGuideView_Tests.release.xcconfig */,
+			);
+			name = "Pods-SLGuideView_Tests";
+			path = "Target Support Files/Pods-SLGuideView_Tests";
+			sourceTree = "<group>";
+		};
+		68C09F7F6563D064C1471E7A11428A16 /* SLGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				A42889522D5D7D9C2964CC436F6C96FB /* HcdGuideView.h */,
+				381E40A521162D9497C53C34F53E0A20 /* HcdGuideView.m */,
+				CA2A6017619247B83D2471458784A9B1 /* HcdGuideViewCell.h */,
+				86AE9ACD7BB8203D3B693AC7A6660A39 /* HcdGuideViewCell.m */,
+				DE45F68B3800DB1836D42E8CAFF4E5C8 /* Pod */,
+				D5B154CAE9C037C3F69742ACB0FF47B1 /* Support Files */,
+			);
+			name = SLGuideView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		95514C2D45AAEBD97EFCDA46EB3F915E /* Pods-SLGuideView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A379E4CB0FF7619CB3B1B10279072887 /* Pods-SLGuideView_Example.modulemap */,
+				770C804ABAF55F33B18360FC16937132 /* Pods-SLGuideView_Example-acknowledgements.markdown */,
+				95964492A0D671C8E8FD2855C03B6A10 /* Pods-SLGuideView_Example-acknowledgements.plist */,
+				55EB9549187BEE7C7DC3415EFFA32386 /* Pods-SLGuideView_Example-dummy.m */,
+				35FDA0C057659C9B7D33CF7D9C6784C5 /* Pods-SLGuideView_Example-frameworks.sh */,
+				D0FB7D31E5203C69BED5D8DBE751C5AE /* Pods-SLGuideView_Example-Info.plist */,
+				2E86D41C90794FD11002831D7F0BC2FE /* Pods-SLGuideView_Example-umbrella.h */,
+				15BD1A1B3392D80058963A7BAD07A9FB /* Pods-SLGuideView_Example.debug.xcconfig */,
+				631EB2F9BF3CF038092511DB6C18BEFB /* Pods-SLGuideView_Example.release.xcconfig */,
+			);
+			name = "Pods-SLGuideView_Example";
+			path = "Target Support Files/Pods-SLGuideView_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4F3DFD5935783FBE9D4A916454EFFF5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9A5807E11096607643578B556FAE6E9 /* Products */,
+				DE5502880E77393B51536EE443FC940B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4F3DFD5935783FBE9D4A916454EFFF5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68C09F7F6563D064C1471E7A11428A16 /* SLGuideView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D5B154CAE9C037C3F69742ACB0FF47B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B9DF7DCF8D659AC2EE5776E0DB405 /* SLGuideView.modulemap */,
+				7C29FF0629D83DFC94B562DC1D9BF099 /* SLGuideView.xcconfig */,
+				C0A1CF579121BA937C95A646460675D7 /* SLGuideView-dummy.m */,
+				5BDA459B52CD9B276808D76CC3352B5F /* SLGuideView-Info.plist */,
+				DF08ED27B37309E5B1B696754CF889A0 /* SLGuideView-prefix.pch */,
+				CCC9B6268CB047E9AD54D44D1CC20DA0 /* SLGuideView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLGuideView";
+			sourceTree = "<group>";
+		};
+		D9A5807E11096607643578B556FAE6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11DF78879A9325727BC95EB338DFA51E /* Pods_SLGuideView_Example.framework */,
+				3D462476C792598BBF42AB3FD56359AC /* Pods_SLGuideView_Tests.framework */,
+				8B4ED35DE2262B301808903F3F7CEA34 /* SLGuideView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE45F68B3800DB1836D42E8CAFF4E5C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3F0F00CD77871218911A22B4A66E4CC /* LICENSE */,
+				1E57E77C17C1DFD55DB0E9EEF24BCEAF /* README.md */,
+				FD9831390CB4407D24909AF06DA3C45F /* SLGuideView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DE5502880E77393B51536EE443FC940B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95514C2D45AAEBD97EFCDA46EB3F915E /* Pods-SLGuideView_Example */,
+				67D613094D893243E7B8464C837F3EA9 /* Pods-SLGuideView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BABE425B79CFF1B60B3E9C282CECABF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3A6B4B767AE5C77E90C6829E77F7A5 /* HcdGuideView.h in Headers */,
+				96BC042F3DBDEA2D547EEAE1D19F424B /* HcdGuideViewCell.h in Headers */,
+				3B5E4A2B3BD705558BA9AFD72EE13651 /* SLGuideView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE4E11D1363C905451BFFB25F39B17F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C222A958DC0D14C36456985E5D12E6 /* Pods-SLGuideView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5910BC1540E37D962D38045897C6C45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B662AA70051BEA091E765656F524323F /* Pods-SLGuideView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08E344EC2F3A08A8C7138E91D14F8190 /* Pods-SLGuideView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5073B5DCF101673DB5F0FA02214ED012 /* Build configuration list for PBXNativeTarget "Pods-SLGuideView_Example" */;
+			buildPhases = (
+				6FE4E11D1363C905451BFFB25F39B17F /* Headers */,
+				16382BBEF8C5970186EDB318D7EB0CE0 /* Sources */,
+				CF3DC8379AC5582BDB483BC8CAC68B93 /* Frameworks */,
+				56EE2D794E6D60230A15DFAC1507CE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3050D6DF2B897C3BB1582B440C89AB91 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLGuideView_Example";
+			productName = "Pods-SLGuideView_Example";
+			productReference = 11DF78879A9325727BC95EB338DFA51E /* Pods_SLGuideView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64722F4BA2D608DE35C9B44594833B15 /* Pods-SLGuideView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE070E4F4F3494DFCEA97578B1D5EF1A /* Build configuration list for PBXNativeTarget "Pods-SLGuideView_Tests" */;
+			buildPhases = (
+				C5910BC1540E37D962D38045897C6C45 /* Headers */,
+				36B8304C8AE0B18DB3E117D710ABC160 /* Sources */,
+				F17E293E66E53128D93B9261D095FABF /* Frameworks */,
+				2111B6FD25A493F9E981B27344EC767D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAB5D617C2A06AA7A84243D3EB46DED /* PBXTargetDependency */,
+			);
+			name = "Pods-SLGuideView_Tests";
+			productName = "Pods-SLGuideView_Tests";
+			productReference = 3D462476C792598BBF42AB3FD56359AC /* Pods_SLGuideView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D84C966F82EBCA2BFDA57FD41BF26E1 /* SLGuideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A52326D031FC22C15CB43757045B1F2 /* Build configuration list for PBXNativeTarget "SLGuideView" */;
+			buildPhases = (
+				1BABE425B79CFF1B60B3E9C282CECABF /* Headers */,
+				1D5B42491C2D1B5F00B1D69526026CCE /* Sources */,
+				53D9A7A74B232E89D0966A3315FC061C /* Frameworks */,
+				30F4D0233F940D9695486DF83AF701BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLGuideView;
+			productName = SLGuideView;
+			productReference = 8B4ED35DE2262B301808903F3F7CEA34 /* SLGuideView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D9A5807E11096607643578B556FAE6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08E344EC2F3A08A8C7138E91D14F8190 /* Pods-SLGuideView_Example */,
+				64722F4BA2D608DE35C9B44594833B15 /* Pods-SLGuideView_Tests */,
+				7D84C966F82EBCA2BFDA57FD41BF26E1 /* SLGuideView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2111B6FD25A493F9E981B27344EC767D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F4D0233F940D9695486DF83AF701BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EE2D794E6D60230A15DFAC1507CE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16382BBEF8C5970186EDB318D7EB0CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9F313337F46A5BCF63173B0D355B0E /* Pods-SLGuideView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D5B42491C2D1B5F00B1D69526026CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3F6632F31306596792BC6A9B6DE466 /* HcdGuideView.m in Sources */,
+				C35FF6488CCC9F776B7B4FA62AFF835C /* HcdGuideViewCell.m in Sources */,
+				B586FB9742EE2ECCAA52CC583141752F /* SLGuideView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8304C8AE0B18DB3E117D710ABC160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4970961AA9B3212E19BEE1C642E6EC /* Pods-SLGuideView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAB5D617C2A06AA7A84243D3EB46DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLGuideView_Example";
+			target = 08E344EC2F3A08A8C7138E91D14F8190 /* Pods-SLGuideView_Example */;
+			targetProxy = E636AC21552922196FA3BF54EA371ABE /* PBXContainerItemProxy */;
+		};
+		3050D6DF2B897C3BB1582B440C89AB91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLGuideView;
+			target = 7D84C966F82EBCA2BFDA57FD41BF26E1 /* SLGuideView */;
+			targetProxy = E3AA871AA63BCC79A7E5D7F0B89B1711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		055F7B304DF68D2CB065260686D1EFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6140AFA386496C327CDAB7EFA3A2F45 /* Pods-SLGuideView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLGuideView_Tests/Pods-SLGuideView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLGuideView_Tests/Pods-SLGuideView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40E05AC0EC1A4BB02A2EAE9EA3CD0DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 631EB2F9BF3CF038092511DB6C18BEFB /* Pods-SLGuideView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLGuideView_Example/Pods-SLGuideView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLGuideView_Example/Pods-SLGuideView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4DA9BA5C03471597C9EB65E87B5D3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C29FF0629D83DFC94B562DC1D9BF099 /* SLGuideView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLGuideView/SLGuideView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLGuideView/SLGuideView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLGuideView/SLGuideView.modulemap";
+				PRODUCT_MODULE_NAME = SLGuideView;
+				PRODUCT_NAME = SLGuideView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5393E79BFD9A1BDF7558B9F3481A5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BBED3590C01591991ACF82E96F7B85 /* Pods-SLGuideView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLGuideView_Tests/Pods-SLGuideView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLGuideView_Tests/Pods-SLGuideView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC3FEB09159008FC5D998FDAA6E4BDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BD1A1B3392D80058963A7BAD07A9FB /* Pods-SLGuideView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLGuideView_Example/Pods-SLGuideView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLGuideView_Example/Pods-SLGuideView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F32CDFD64C514B65DD039DFAE7CCE0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C29FF0629D83DFC94B562DC1D9BF099 /* SLGuideView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLGuideView/SLGuideView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLGuideView/SLGuideView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLGuideView/SLGuideView.modulemap";
+				PRODUCT_MODULE_NAME = SLGuideView;
+				PRODUCT_NAME = SLGuideView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5073B5DCF101673DB5F0FA02214ED012 /* Build configuration list for PBXNativeTarget "Pods-SLGuideView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3FEB09159008FC5D998FDAA6E4BDBC /* Debug */,
+				40E05AC0EC1A4BB02A2EAE9EA3CD0DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A52326D031FC22C15CB43757045B1F2 /* Build configuration list for PBXNativeTarget "SLGuideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA9BA5C03471597C9EB65E87B5D3A5 /* Debug */,
+				F32CDFD64C514B65DD039DFAE7CCE0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE070E4F4F3494DFCEA97578B1D5EF1A /* Build configuration list for PBXNativeTarget "Pods-SLGuideView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				055F7B304DF68D2CB065260686D1EFC1 /* Debug */,
+				C5393E79BFD9A1BDF7558B9F3481A5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

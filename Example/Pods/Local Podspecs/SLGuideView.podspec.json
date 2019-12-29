@@ -1,0 +1,22 @@
+{
+  "name": "SLGuideView",
+  "version": "0.1.0",
+  "summary": "A short description of SLGuideView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuwenming/SLGuideView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuwenming": "18301595770@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wuwenming/SLGuideView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SLGuideView/Classes/**/*"
+}
