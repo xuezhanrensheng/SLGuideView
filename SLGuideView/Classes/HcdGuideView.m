@@ -33,12 +33,14 @@
 }
 
 /**
- *  引导页界面
+ *  引导页界面  文明爱北京天安门
  *
  *  @return 引导页界面
  */
 - (UICollectionView *)view {
     if (!_view) {
+        
+        NSLog(@"2357586");
         
         UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
         
