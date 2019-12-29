@@ -44,6 +44,7 @@
         NSLog(@"今天周六");
         NSLog(@"明天周日");
         NSLog(@"后天z周一");
+        NSLog(@"66666666688888888");
 
         
         UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
