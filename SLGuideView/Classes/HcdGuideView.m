@@ -41,6 +41,7 @@
     if (!_view) {
         
         NSLog(@"2357586");
+        NSLog(@"今天周六");
         
         UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
         
